@@ -128,8 +128,8 @@ const ProductModal = ({ product, onSave, onClose }) => {
           <button className='bg-gray-200 p-2 mr-2 block mb-5' type="button" onClick={handleAddAttribute}>Add Attribute</button>
         </label>
         <div className='flex justify-center mb-2'>
-        <button className='bg-gray-200 px-2 mr-2' type="button" onClick={handleSubmit}>Save</button>
-        <button className='bg-gray-200 p-2 mr-2' type="button" onClick={onClose}>Cancel</button>
+        <button className='bg-gray-200 px-4 mr-2 hover:bg-gray-300' type="button" onClick={handleSubmit}>Save</button>
+        <button className='bg-gray-200 px-4 mr-2 hover:bg-gray-300' type="button" onClick={onClose}>Cancel</button>
         </div>
       </div>
     </div>
